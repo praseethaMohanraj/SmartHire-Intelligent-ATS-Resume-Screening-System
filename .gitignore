@@ -1,0 +1,16 @@
+venv/
+__pycache__/
+*.pyc
+
+uploads/
+secure_pdfs/
+resumes_db/
+
+*.db
+
+.env
+.streamlit/secrets.toml
+
+.vscode/
+.idea/
+.jdks/
