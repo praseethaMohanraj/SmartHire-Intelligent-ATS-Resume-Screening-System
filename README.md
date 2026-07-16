@@ -125,7 +125,6 @@ SmartHire provides an intelligent ATS platform that:
 <img src="Screenshot/home.png" width="900">
 </p>
 
----
 
 ### 📊 Admin Dashboard
 
@@ -133,7 +132,7 @@ SmartHire provides an intelligent ATS platform that:
 <img src="Screenshot/dashboard.png" width="900">
 </p>
 
----
+
 
 ### 📈 Reports
 
@@ -141,7 +140,7 @@ SmartHire provides an intelligent ATS platform that:
 <img src="Screenshot/reports.png" width="900">
 </p>
 
----
+
 
 ### 🗑 Delete Resume
 
