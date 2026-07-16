@@ -87,63 +87,33 @@ SmartHire provides an intelligent ATS platform that:
 
 ## 🏗️ System Architecture
 
+```text
                    +----------------------+
-                   |     Recruiter        |
+                   |      Recruiter       |
                    +----------+-----------+
                               |
                               v
-                    Streamlit Web Interface
+                  Streamlit Web Interface
                               |
-        +---------------------+----------------------+
-        |                     |                      |
-        v                     v                      v
- Resume Upload         Job Role Selection     Admin Dashboard
-        |                     |                      |
-        +---------------------+----------------------+
-                              |
-                              v
-                  Resume Parsing & Skill Extraction
+      +-----------------------+-----------------------+
+      |                       |                       |
+      v                       v                       v
+ Resume Upload        Job Role Selection      Admin Dashboard
+      |                       |                       |
+      +-----------------------+-----------------------+
                               |
                               v
-                  ATS Skill Matching Algorithm
+           Resume Parsing & Skill Extraction
                               |
                               v
-                 Candidate Score Calculation
+            ATS Skill Matching Algorithm
                               |
                               v
-              SQLite Database & JSON Storage
+           Candidate Score Calculation
                               |
                               v
-          Ranked Candidates & Reports Dashboard
-
-
-## 📸 Project Screenshots
-
-### 🏠 Home Page
-
-<p align="center">
-<img src="Screenshot/home.png" width="900">
-</p>
-
-
-### 📊 Admin Dashboard
-
-<p align="center">
-<img src="Screenshot/dashboard.png" width="900">
-</p>
-
-
-
-### 📈 Reports
-
-<p align="center">
-<img src="Screenshot/reports.png" width="900">
-</p>
-
-
-
-### 🗑 Delete Resume
-
-<p align="center">
-<img src="Screenshot/delete.png" width="900">
-</p>
+        SQLite Database & JSON Storage
+                              |
+                              v
+      Ranked Candidates & Reports Dashboard
+```
