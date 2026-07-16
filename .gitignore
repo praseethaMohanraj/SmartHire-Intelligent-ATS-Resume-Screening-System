@@ -1,16 +1,27 @@
-venv/
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
+*.db
 
+# Virtual environments
+venv/
+.venv/
+
+# Environment variables
+.env
+
+# Streamlit
+.streamlit/secrets.toml
+
+# IDE
+.vscode/
+.idea/
+
+# Project data
 uploads/
 secure_pdfs/
 resumes_db/
 
-*.db
-
-.env
-.streamlit/secrets.toml
-
-.vscode/
-.idea/
-.jdks/
+# OS files
+.DS_Store
+Thumbs.db
